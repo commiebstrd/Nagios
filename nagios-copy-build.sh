@@ -9,7 +9,7 @@
 # Uses etc and libexec from /usr/local/nagios/
 # Web dirs are /nagios-dev and /nagios-dev/cgi
 
-# set initial variables, make_opt not needed for default build
+# set initial variables
 code_dir="/tmp/nagios-code"
 bin_dir="/tmp/nagios-bins"
 make_opt=""
