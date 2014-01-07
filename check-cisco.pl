@@ -343,7 +343,7 @@ if($check_type =~ /^temp/) {
         }
 		
 		if ($sum == 0) {
-			$err_msg = "Fans: Unknown, no fans were detected.";
+			$msg = "Fans: Unknown, no fans were detected.";
 			$stat = 3;
 		} 
 		else {
